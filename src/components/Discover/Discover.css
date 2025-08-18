@@ -1,0 +1,18 @@
+
+.discover{
+    padding-bottom: 40px;
+    border-bottom: 2px dashed #5f7769;
+}
+.discover h2{
+    font-size: 32px;
+    color: #384b40;
+    padding-bottom: 24px;
+
+}
+
+ul li{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    align-items: center;
+}

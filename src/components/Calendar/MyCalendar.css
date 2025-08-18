@@ -1,0 +1,31 @@
+.dates{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 28px;
+    padding-bottom: 40px;
+    border-bottom: 2px dashed #384B40;
+}
+.calendar{
+    border-radius: 16px;
+}
+.dates h2{
+   color: #384B40;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.dates h3{
+    color: #384B40;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.dates p{
+    padding: 12px 20px;
+    border: 2px solid #384B40;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 20px;
+}

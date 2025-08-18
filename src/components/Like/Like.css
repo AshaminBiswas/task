@@ -1,0 +1,466 @@
+.like{
+  padding: 64px;
+}
+
+.like h1{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color:#384b40;
+}
+
+.like .card-container{
+  max-width: 1248px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.card1 {
+  max-width: 416px;
+  max-height: 666px;
+}
+
+.card1 .image-container{
+  width: 416px;
+  height: 380px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card1 .image-container img{
+  width: 416px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.card1 .card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card1 .card-content .card-header{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card1 .card-content .card-header .lg{
+  background-color: #384b40;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.card1 .card-content .card-header .lg p{
+  color: white;
+  font-size: 12px;
+  margin: 0;
+}
+
+.card1 .card-content .card-header .type{
+  background:#FDF3E8;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.card1 .card-content .title, .amount{
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.card1 .card-content .amount{
+  color: #384b40;
+}
+
+.card1 .card-content .description{
+  font-size: 16px;
+  margin: 0;
+}
+
+.card1 .card-actions{
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card1 .card-actions button{
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #384b40;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card1 .card-actions .read{
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 0;
+  color: inherit;
+}
+
+.slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.slide .left{
+  margin-right: 32px;
+  border: 2px solid #384b40;
+  padding: 10px 0 10px 20px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.slide .right{
+  border: 2px solid #384b40;
+  padding: 10px 20px 10px 0;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+
+@media (max-width: 575.98px) {
+  .like {
+    padding: 24px 16px;
+  }
+  
+  .like h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .like .card-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    justify-items: center;
+  }
+  
+  .card1 {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .card1 .image-container {
+    width: 380px;
+    height: 360px;
+    margin-bottom: 16px;
+  }
+  
+  .card1 .image-container img {
+    width: 380px;
+    height: 360px;
+    object-fit: cover;
+  }
+  
+  .card1 .card-content .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .card1 .card-content .card-header .lg {
+    padding: 4px 8px;
+  }
+  
+  .card1 .card-content .card-header .lg p {
+    font-size: 10px;
+  }
+  
+  .card1 .card-content .card-header .type {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+  
+  .card1 .card-content .title,
+  .card1 .card-content .amount {
+    font-size: 18px;
+  }
+  
+  .card1 .card-content .description {
+    font-size: 14px;
+  }
+  
+  .card1 .card-actions {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+  
+  .card1 .card-actions button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .slide {
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .slide .left,
+  .slide .right {
+    padding: 8px 12px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .like {
+    padding: 32px 20px;
+  }
+  
+  .like h1 {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+  
+  .like .card-container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-items: center;
+  }
+  
+  .card1 {
+    max-width: 480px;
+    width: 100%;
+  }
+  
+  .card1 .image-container {
+    width: 480px;
+    height: 390px;
+    margin-bottom: 16px;
+  }
+  
+  .card1 .image-container img {
+    width: 480px;
+    height: 390px;
+    object-fit: cover;
+  }
+  
+  .card1 .card-content .card-header {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .card1 .card-content .title,
+  .card1 .card-content .amount {
+    font-size: 20px;
+  }
+  
+  .card1 .card-actions {
+    flex-direction: row;
+    gap: 16px;
+  }
+  
+  .slide {
+    gap: 24px;
+    margin-top: 32px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .like {
+    padding: 40px 24px;
+  }
+  
+  .like h1 {
+    font-size: 28px;
+    margin-bottom: 36px;
+  }
+  
+  .like .card-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card1 {
+    max-width: 360px;
+    width: 100%;
+  }
+  
+  .card1 .image-container {
+    width: 360px;
+    height: 380px;
+    margin-bottom: 16px;
+  }
+  
+  .card1 .image-container img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+  }
+  
+  .card1 .card-content .card-header .lg {
+    padding: 5px 10px;
+  }
+  
+  .card1 .card-content .card-header .lg p {
+    font-size: 11px;
+  }
+  
+  .card1 .card-content .card-header .type {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  
+  .card1 .card-content .title,
+  .card1 .card-content .amount {
+    font-size: 20px;
+  }
+  
+  .card1 .card-content .description {
+    font-size: 14px;
+  }
+  
+  .card1 .card-actions button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+  
+  .card1 .card-actions .read {
+    font-size: 14px;
+  }
+  
+  .slide {
+    gap: 28px;
+    margin-top: 36px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .like {
+    padding: 48px 32px;
+  }
+  
+  .like h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .like .card-container {
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    justify-items: center;
+  }
+  
+  .card1 {
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .card1 .image-container {
+    width: 100%;
+    height: 290px;
+    margin-bottom: 14px;
+  }
+  
+  .card1 .image-container img {
+    width: 320;
+    height: 290px;
+    object-fit: cover;
+  }
+  
+  .card1 .card-content .card-header {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .card1 .card-content .card-header .lg {
+    padding: 4px 8px;
+  }
+  
+  .card1 .card-content .card-header .lg p {
+    font-size: 10px;
+  }
+  
+  .card1 .card-content .card-header .type {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+  
+  .card1 .card-content .title,
+  .card1 .card-content .amount {
+    font-size: 18px;
+  }
+  
+  .card1 .card-content .description {
+    font-size: 13px;
+  }
+  
+  .card1 .card-actions {
+    padding-top: 10px;
+    gap: 14px;
+  }
+  
+  .card1 .card-actions button {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+  
+  .card1 .card-actions .read {
+    font-size: 13px;
+  }
+  
+  .slide {
+    margin-top: 40px;
+    gap: 28px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .like {
+    padding: 64px 40px;
+  }
+  
+  .like .card-container {
+    max-width: 1248px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .card1 {
+    max-width: 416px;
+  }
+  
+  .card1 .image-container {
+    width: 400px;
+    height: 380px;
+  }
+  
+  .card1 .image-container img {
+    width: 400px;
+    height: 380px;
+    object-fit: cover;
+  }
+  
+  .slide {
+    margin-top: 48px;
+  }
+}

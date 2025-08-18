@@ -1,0 +1,90 @@
+.image-slider {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-bottom: 2px dashed #5f7769;
+  border-top: 2px dashed #5f7769;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  /* padding: 112 8px; */
+}
+
+.image-slider .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-slider .box1 h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #384b40;
+  padding-bottom: 20px;
+}
+
+.image-slider .box1 div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 20px;
+}
+
+.image-slider .box1 div .arrow {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  width: 36px;
+  height: auto;
+}
+
+.image-slider .box1 div .arrow:hover {
+  opacity: 0.7;
+}
+
+.image-slider .box1 div .arrow.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.image-slider .box2 {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.image-slider .box2 img {
+  width: 50%; 
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+  .image-slider .box1 h2 {
+    font-size: 22px;
+  }
+
+  .image-slider .box1 div .arrow {
+    width: 28px;
+  }
+
+  .image-slider .box2 img {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-slider .box1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .image-slider .box2 img {
+    max-height: 280px;
+  }
+}

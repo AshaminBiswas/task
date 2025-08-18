@@ -1,0 +1,51 @@
+.additional-info{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 28px;
+    padding-bottom: 40px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.info{
+    width: 90%;
+}
+.additional-info h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #384b40;
+}
+
+.additional-info .headings{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px ;
+    border-bottom: 1px solid #384B40;
+}
+
+.open-info{
+    padding: 12px 0;
+}
+
+.map{
+    width: 100%;
+    height: 390px;
+    margin-bottom: 20px;
+}
+
+.details p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.details span{
+    color: #384B40;
+   
+}
