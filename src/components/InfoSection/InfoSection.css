@@ -180,7 +180,7 @@
   .info-section {
     flex-direction: column;
     gap: 32px;
-    padding: 60px 32px;
+    padding: 40px 24px;
   }
   
   .info-section-col1 {
@@ -190,8 +190,8 @@
   
   .info-section-col2 {
     position: static;
-    max-width: 100%;
-    width: 100%;
+    max-width: 4;
+    width: 360px;
     padding: 40px 24px;
   }
   
@@ -227,7 +227,7 @@
   }
   
   .info-section-col2 {
-    padding: 32px 20px;
+    padding: 32px 6px;
   }
   
   .experiences h2 {

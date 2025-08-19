@@ -102,16 +102,25 @@
 }
 
 @media (max-width: 767.98px) {
+
+    .footer img{
+        height: 580px;
+        width: 100%;
+    }
     .banner-overlay {
-        padding: 20px 16px;
+        height: 580px;
+        width: 100%;
+        padding: 40px 16px;
         justify-content: center;
     }
     
     .banner-overlay .row1 {
-        padding: 30px 16px;
+        padding: 20px 16px;
         gap: 24px;
         border-bottom: 1px solid white;
         width: 100%;
+        align-items: center;
+        justify-content: center ;
     }
     
     .banner-overlay .row1 img {
@@ -120,8 +129,8 @@
     }
     
     .banner-overlay .row1 ul {
-        gap: 20px;
-        flex-direction: column;
+        gap: 0px;
+    
         width: 100%;
         align-items: center;
     }

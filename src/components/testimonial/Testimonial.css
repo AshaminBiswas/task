@@ -164,6 +164,12 @@
     .card .description {
         font-size: 13px;
     }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
     
 }
@@ -184,5 +190,11 @@
     
     .card .description {
         font-size: 12px;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
