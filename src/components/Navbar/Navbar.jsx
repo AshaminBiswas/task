@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li><Link to="/faq">FAQ</Link></li>
-      <li><button className="book-call">Book a call</button></li>
+      <li><Link to={`/book-call`}><button className="book-call">Book a call</button></Link></li>
     </>
   );
 
