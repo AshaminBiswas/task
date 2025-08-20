@@ -53,7 +53,7 @@ function Home() {
             </div>
             <p>Morning 9 - 12</p>
           </div>
-          <div className='hero-section-three-items'>
+          <div id='esc' className='hero-section-three-items'>
             <div>
               <img src={People} alt="People" />
               <p>Escapees</p>

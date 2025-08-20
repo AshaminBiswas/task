@@ -74,6 +74,9 @@
   align-items: center;
   justify-content: center;
 }
+.hero-section-three #esc{
+  border-right: 2px solid #384b4033;
+}
 
 .hero-section-three .hero-section-three-items:last-child {
   border-right: none;
