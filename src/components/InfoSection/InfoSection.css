@@ -184,19 +184,19 @@
   }
   
   .info-section-col1 {
-    width: 360px;
+    width: 260px;
     gap: 40px;
   }
   
   .info-section-col2 {
     position: static;
     max-width: 4;
-    width: 360px;
+    width: 260px;
     padding: 40px 24px;
   }
   
   .info-section-col2 form {
-    width: 330px;
+    width: 260px;
   }
   
   .experiences h2 {
@@ -220,7 +220,7 @@
   .info-section {
     padding: 20px 10px;
     gap: 24px;
-    width: 286px;
+    width: 200px;
   }
   
   .info-section-col1 {
